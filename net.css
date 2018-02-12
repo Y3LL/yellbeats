@@ -1,0 +1,143 @@
+/* 
+* Yell Beats | Mikhail Sidorchuk
+* 12.02.18
+*/
+/* Navbar */
+    .navbar-list {
+        list-style: none;
+        margin-bottom: 0; 
+    }
+    .navbar-item {
+        position: relative;
+        float: left;
+        margin-bottom: 0; 
+    }
+    .navbar-link {
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: .2rem;
+        margin-right: 35px;
+        text-decoration: none;
+        line-height: 6.5rem;
+        color: #222; 
+    }
+    .navbar > .container {
+        width: 100%;
+    }
+    .navbar, .navbar-spacer {
+        display: block;
+        width: 100%;
+        height: 6.5rem;
+        background: #fff;
+        z-index: 99;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+    .navbar-link.active {
+        color: #33C3F0; 
+    }
+    .has-docked-nav, .navbar {
+        position: fixed;
+        top: 0;
+        left: 0; 
+    }
+    .brandimage {
+        margin-top: 15px;
+    }
+/* close Navbar */
+/*---------------------------------------------------*/
+/* Section settings */
+    .section {
+        padding: 20rem 0 19rem;
+    }
+    
+/* close Section settings */
+/*---------------------------------------------------*/
+/* Value Section */
+    .values {
+        background-image: url('../images/values-bg.jpg');
+        background-size: cover;
+        color: #fff;
+        padding-bottom: 5rem;
+        text-align: center;
+        padding: 20rem 0 19rem;
+    }
+    .value-multiplier {
+        margin-bottom: .5rem;
+        color: #11DFC7;
+    }
+    .value-heading {
+        margin-bottom: .3rem;
+    }
+    .value-description {
+        opacity: .8;
+        font-weight: 300;
+    }
+    .one-third.column {
+        width: 30.6666666667%;
+    }
+    .value-multiplier {
+        margin-bottom: .5rem;
+        color: #11DFC7;
+    }
+    .value-heading {
+        margin-bottom: .3rem;
+    }
+    .value-description {
+        opacity: .8;
+        margin-top: 2rem;
+        font-weight: 300;
+    }
+/* close Value Section */
+/*---------------------------------------------------*/
+/* Common Settings*/
+    .button-primary {
+        border-radius: 10px;
+    }
+    .button-primary:hover {
+        border-radius: 10px;
+        transition: ease-in .3s;
+        background-color: #14a98a !important;
+        border-color: #14a98a !important;
+    }
+/* close Common Settings*/
+/*---------------------------------------------------*/
+/* Added Section */
+    .section-heading, .section-description {
+        margin-bottom: 1.2rem;
+        text-align: center;
+    }
+    .section-description {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .added {
+        text-align: center;
+        padding: 20rem 0 19rem;
+    }
+/* close Added Section */
+/*---------------------------------------------------*/
+/* Hero Section */
+    .heroimage {
+        top: -16rem;
+        max-height: 615px;
+    }
+    .hero {
+        padding: 0 0 5rem;
+    }
+/* close Hero Section */
+/*---------------------------------------------------*/
+/* Categories Section */
+    .categories {
+        background-image: url(../images/values-bg.jpg);
+        background-size: cover;
+        color: #fff;
+    }
+    .categories .section-description {
+        margin-bottom: 4rem;
+    }
+/* close Categories Section */
+/*---------------------------------------------------*/
